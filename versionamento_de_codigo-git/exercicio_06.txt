@@ -1,0 +1,39 @@
+    1  history -w
+    2  ls
+    3  cd repositorio/
+    4  mkdir toti_back_end
+    5* rm -r toti_backend
+    6  mkdir toti_backend
+    7  cd toti_backend/
+    8  git init
+    9  git add Readme.md
+   10  echo "# toti_turma_39" >> README.md
+   11  git commit -m "Criação do Repositório geral do curso"
+   12  git add .
+   13  git status
+   14  git commit -m "Criação do Repositório geral do curso"
+   15  git branch -M main
+   16  git remote add origin https://github.com/vladoxx/toti_turma_39.git
+   17  git push -u origin main
+   18  git pull
+   19  mkdir versionamento_de_codigo-git
+   20  cd versionamento_de_codigo-git/
+   21  history > exercicio_06.txt
+   22  cd ..
+   23  git checkout -b features
+   24  history > exercicio_06_nova_branch.txt
+   25  ls
+   26  cp exercicio_06_nova_branch.txt versionamento_de_codigo-git/
+   27  rm exercicio_06_nova_branch.txt 
+   28  cd versionamento_de_codigo-git/
+   29  rm exercicio_06.txt
+   30  git checkout main
+   31  ls
+   32  cd ..
+   33  ls
+   34  cd versionamento_de_codigo-git/
+   35  ls
+   36  git branch
+   37  git checkout features
+   38  git checkout main
+   39  history > exercicio_06.txt
